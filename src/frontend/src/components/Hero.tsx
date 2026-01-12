@@ -9,25 +9,25 @@ export function Hero() {
   };
 
   return (
-    <main className="flex flex-1 items-center justify-center px-4 py-12 sm:px-6 lg:px-8">
+    <main className="flex h-[calc(100vh-4rem)] items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8">
       <div className="w-full max-w-5xl">
         <div className="text-center">
           {/* Main Heading */}
-          <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-border/50 bg-muted/50 px-4 py-2 text-sm font-medium text-muted-foreground backdrop-blur-sm">
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border/50 bg-muted/50 px-4 py-2 text-sm font-medium text-muted-foreground backdrop-blur-sm">
             <Sparkles className="h-4 w-4" />
             <span>Transform Your Git Workflow</span>
           </div>
 
-          <h1 className="mb-6 bg-gradient-to-br from-foreground via-foreground to-foreground/70 bg-clip-text text-6xl font-bold tracking-tight text-transparent sm:text-7xl md:text-8xl lg:text-9xl">
+          <h1 className="mb-4 bg-gradient-to-br from-foreground via-foreground to-foreground/70 bg-clip-text text-6xl font-bold tracking-tight text-transparent sm:text-7xl md:text-8xl lg:text-9xl">
             Better Commit
           </h1>
 
-          <p className="mx-auto mb-12 max-w-2xl text-xl text-muted-foreground sm:text-2xl md:text-3xl">
+          <p className="mx-auto mb-10 max-w-2xl text-xl text-muted-foreground sm:text-2xl md:text-3xl">
             Elevate your development workflow with intelligent commit management and seamless collaboration.
           </p>
 
           {/* Feature Cards */}
-          <div className="mx-auto mt-16 grid max-w-4xl gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mx-auto mt-12 grid max-w-4xl gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <button
               onClick={() => scrollToSection('smart-commits')}
               className="group rounded-xl border border-border/50 bg-card/50 p-6 text-left backdrop-blur-sm transition-all hover:border-border hover:bg-card/80 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
