@@ -1,0 +1,9 @@
+{
+  "frontend/src/App.tsx": "Main application component that composes the Header, Hero, FeatureSections, and Footer components into a full-page layout with flexbox structure.",
+  "frontend/src/components/Header.tsx": "Header component displaying the Better Commit logo with a gradient icon and brand name in a sticky navigation bar.",
+  "frontend/src/components/Hero.tsx": "Hero section component featuring the main \"Better Commit\" heading with large bold typography, enhanced tagline, and three clickable feature cards that trigger smooth scrolling to corresponding detailed sections below.",
+  "frontend/src/components/Footer.tsx": "Footer component with copyright notice and attribution to caffeine.ai, including a heart icon.",
+  "frontend/src/index.css": "Global styles with OKLCH color system defining a modern purple/blue color palette for both light and dark modes with improved contrast and visual appeal.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with Inter font family for improved typography.",
+  "frontend/src/components/FeatureSections.tsx": "Feature sections component displaying three detailed sections (Smart Commits, Lightning Fast, Beautiful UI) with comprehensive descriptions, icons, and alternating layouts for visual interest."
+}
