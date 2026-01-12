@@ -1,9 +1,9 @@
 {
   "frontend/src/App.tsx": "Main application component that composes the Header, Hero, FeatureSections, and Footer components with a simplified layout structure where Hero fills exactly one viewport height.",
   "frontend/src/components/Header.tsx": "Header component displaying the Better Commit logo with a gradient icon and brand name in a sticky navigation bar.",
-  "frontend/src/components/Hero.tsx": "Hero section component that fills exactly 100vh minus header height (calc(100vh-4rem)) with centered content including the main \"Better Commit\" heading, tagline, and three clickable feature cards that trigger smooth scrolling to sections below the fold.",
+  "frontend/src/components/Hero.tsx": "Hero section component that fills exactly 100vh minus header height with centered content including the main \"Better Commit\" heading, tagline, a CTA button that scrolls to the Features section, and three clickable feature cards that trigger smooth scrolling to individual sections below the fold.",
   "frontend/src/components/Footer.tsx": "Footer component with copyright notice and attribution to caffeine.ai, including a heart icon.",
   "frontend/src/index.css": "Global styles with OKLCH color system defining a modern purple/blue color palette for both light and dark modes with improved contrast and visual appeal.",
   "frontend/tailwind.config.js": "Tailwind configuration extended with Inter font family for improved typography.",
-  "frontend/src/components/FeatureSections.tsx": "Feature sections component displaying three detailed sections (Smart Commits, Lightning Fast, Beautiful UI) with comprehensive descriptions, icons, and alternating layouts for visual interest."
+  "frontend/src/components/FeatureSections.tsx": "Feature sections component with an ID \"features\" on the wrapper div, displaying three detailed sections (Smart Commits, Lightning Fast, Beautiful UI) with comprehensive descriptions, icons, and alternating layouts for visual interest."
 }

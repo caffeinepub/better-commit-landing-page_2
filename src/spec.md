@@ -7,6 +7,7 @@ A landing page that displays "Better Commit" as the main heading with clean, mod
 - Display "Better Commit" text as the primary heading, centered on the screen
 - Large, bold typography for the main heading
 - Subtext (tagline) with increased font size for better prominence and readability while maintaining visual balance with the main heading
+- Call-to-action button "Transform your Git workflow" that smoothly scrolls to the Features section
 - Three clickable feature cards in the Hero section: "Smart Commits", "Lightning Fast", and "Beautiful UI"
 - Smooth scrolling navigation when feature cards are clicked
 - Three detailed feature sections below the hero area with comprehensive descriptions
@@ -17,10 +18,11 @@ A landing page that displays "Better Commit" as the main heading with clean, mod
 ## Layout Requirements
 - Hero section must fill exactly one full screen height (100vh) with no vertical overflow by default
 - Feature sections positioned below the fold, only visible when user scrolls down or clicks feature links
-- Hero section contains all main content (heading, subtext, feature cards) within the 100vh viewport
+- Hero section contains all main content (heading, subtext, call-to-action button, feature cards) within the 100vh viewport
 - Feature sections appear below the hero section when scrolling
 
 ## Interactive Navigation
+- Clicking on "Transform your Git workflow" call-to-action button smoothly scrolls to the top of the Features section, aligning exactly with the top of the viewport
 - Clicking on "Smart Commits" card smoothly scrolls to the Smart Commits section below the fold
 - Clicking on "Lightning Fast" card smoothly scrolls to the Lightning Fast section below the fold
 - Clicking on "Beautiful UI" card smoothly scrolls to the Beautiful UI section below the fold
@@ -57,6 +59,7 @@ A landing page that displays "Better Commit" as the main heading with clean, mod
 - Centered content alignment in hero section within 100vh constraint
 - Modern typography with emphasis on the main heading
 - Enhanced subtext typography for improved readability
+- Call-to-action button with smooth scroll functionality to Features section
 - Clickable feature cards with hover effects
 - Consistent spacing throughout all sections
 - Professional color scheme

@@ -1,4 +1,5 @@
-import { Sparkles, Code2, Zap } from 'lucide-react';
+import { Sparkles, Code2, Zap, ArrowRight } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 export function Hero() {
   const scrollToSection = (sectionId: string) => {
@@ -22,12 +23,24 @@ export function Hero() {
             Better Commit
           </h1>
 
-          <p className="mx-auto mb-10 max-w-2xl text-xl text-muted-foreground sm:text-2xl md:text-3xl">
+          <p className="mx-auto mb-8 max-w-2xl text-xl text-muted-foreground sm:text-2xl md:text-3xl">
             Elevate your development workflow with intelligent commit management and seamless collaboration.
           </p>
 
+          {/* CTA Button */}
+          <div className="mb-12">
+            <Button
+              size="lg"
+              onClick={() => scrollToSection('features')}
+              className="group gap-2 text-base font-semibold"
+            >
+              Transform your Git workflow
+              <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
+            </Button>
+          </div>
+
           {/* Feature Cards */}
-          <div className="mx-auto mt-12 grid max-w-4xl gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mx-auto grid max-w-4xl gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <button
               onClick={() => scrollToSection('smart-commits')}
               className="group rounded-xl border border-border/50 bg-card/50 p-6 text-left backdrop-blur-sm transition-all hover:border-border hover:bg-card/80 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"

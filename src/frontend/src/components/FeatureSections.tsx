@@ -2,7 +2,7 @@ import { Code2, Zap, Sparkles } from 'lucide-react';
 
 export function FeatureSections() {
   return (
-    <div className="w-full bg-muted/30">
+    <div id="features" className="w-full bg-muted/30">
       {/* Smart Commits Section */}
       <section id="smart-commits" className="scroll-mt-16 border-t border-border/40 px-4 py-16 sm:px-6 lg:px-8">
         <div className="container mx-auto max-w-5xl">
